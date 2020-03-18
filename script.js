@@ -50,7 +50,7 @@ function createColorButton(color) {
   // set the style of the button to have a background color of the given color
   item.style.background = color;
   // assign a button class
-  item.classList.add = 'colors';
+  item.classList.add('colors');
   // assign an id of "<color-name-here>-btn" (replace the stuff in <>'s)
   item.id = color + '-btn';
   // create an event listener on this button that sets the background color to be the given color
