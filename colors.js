@@ -1,3 +1,3 @@
-var colors = ['Green', 'Red', 'Yellow'];
+var colors = ['green', 'red', 'yellow'];
 
-var listColors = ['Blue', 'Pink', 'Orange', 'Magenta', 'Teal', 'Aqua', 'Coral', 'Crimson', 'DarkSeaGreen', 'LimeGreen', 'OliveDrab', 'Lime', 'SeaGreen', 'Violet', 'OrangeRed', 'GoldenRod', 'FireBrick', 'DeepPink', 'DarkRed', 'DarkSalmon',];
+var listColors = ['blue', 'pink', 'orange', 'magenta', 'teal', 'aqua', 'coral', 'crimson', 'darkseagreen', 'limegreen', 'olivedrab', 'lime', 'seagreen', 'violet', 'orangered', 'goldenrod', 'firebrick', 'deeppink', 'darkred', 'darksalmon',];

@@ -24,9 +24,9 @@ function init() {
     createColorOption(listColors[i]);
   }
   // generate the initial 3 color buttons
-  createColorButton('Red');
-  createColorButton('Yellow');
-  createColorButton('Green');
+  createColorButton('red');
+  createColorButton('yellow');
+  createColorButton('green');
 }
 
 // creates a new option of a given color and adds it to the dropdown
