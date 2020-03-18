@@ -54,9 +54,9 @@ function createColorButton(color) {
   // assign an id of "<color-name-here>-btn" (replace the stuff in <>'s)
   item.id = color + '-btn';
   // create an event listener on this button that sets the background color to be the given color
-  // color + '-btn'.addEventListener('click' function() {
-  //   body.style.backgroundColor = color;
-  // });
+  item.addEventListener('click', function() {
+    document.body.style.backgroundColor = color;
+  });
   // append into DOM
   colorButton.append(item);
 }
@@ -74,5 +74,5 @@ function removeColorOption(color) {
 // remove a button of a given color from our buttons
 function removeColorBtn(color) {
   var btn = document.getElementById(color + '-btn');
-  btn.remove();
+  document.btn.remove(color);
 }
