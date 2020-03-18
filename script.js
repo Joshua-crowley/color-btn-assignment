@@ -50,7 +50,7 @@ function createColorButton(color) {
   // set the style of the button to have a background color of the given color
   item.style.background = color;
   // assign a button class
-  item.className = color;
+  item.classList.add = 'colors';
   // assign an id of "<color-name-here>-btn" (replace the stuff in <>'s)
   item.id = color + '-btn';
   // create an event listener on this button that sets the background color to be the given color
@@ -74,5 +74,5 @@ function removeColorOption(color) {
 // remove a button of a given color from our buttons
 function removeColorBtn(color) {
   var btn = document.getElementById(color + '-btn');
-  document.btn.remove(color);
+  btn.remove();
 }
